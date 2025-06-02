@@ -1,0 +1,11 @@
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at microsoft/trocr-base-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+Epoch 1: Loss = 10.8503, CER = 1.0000
+Epoch 2: Loss = 3.4921, CER = 1.0000
+Epoch 3: Loss = 2.9526, CER = 1.0000
+Epoch 4: Loss = 2.6813, CER = 1.0000
+Epoch 5: Loss = 2.6311, CER = 1.0000
+✅ Model saved to: D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\models\trocr_khmer_recognizer\pre_trained

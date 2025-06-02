@@ -1,0 +1,36 @@
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████| 4.17k/4.17k [00:00<00:00, 3.12MB/s]
+D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\User\.cache\huggingface\hub\models--microsoft--trocr-base-handwritten. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████| 1.33G/1.33G [04:36<00:00, 4.83MB/s]
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at microsoft/trocr-base-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+generation_config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████| 190/190 [00:00<?, ?B/s]
+preprocessor_config.json: 100%|████████████████████████████████████████████████████████████████████████████| 224/224 [00:00<00:00, 204kB/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████████████████████████████████| 1.12k/1.12k [00:00<?, ?B/s]
+vocab.json: 100%|███████████████████████████████████████████████████████████████████████████████████████| 899k/899k [00:00<00:00, 1.19MB/s]
+merges.txt: 100%|████████████████████████████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 906kB/s]
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████████████████| 772/772 [00:00<00:00, 2.14MB/s]
+Traceback (most recent call last):
+  File "D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\src\recognition_trocr\pretrain_trocr_general_khmer.py", line 60, in <module>
+    for batch in dataloader:
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\src\recognition_trocr\pretrain_trocr_general_khmer.py", line 43, in __getitem__
+    image = Image.open(image_path).convert("RGB")
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\PIL\Image.py", line 3505, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\data\\upload\\1\\8295530e-line_001.png'

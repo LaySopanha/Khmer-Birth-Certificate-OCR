@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-05-23T07:15:05.548293Z",
+  "program": "D:\\CADT\\Internship 1\\OCR\\TestingOCR\\KhmerBCOCR\\src\\recognition_trocr\\pretrain_trocr_general_khmer.py",
+  "codePath": "src\\recognition_trocr\\pretrain_trocr_general_khmer.py",
+  "email": "panhalay69420@gmail.com",
+  "root": "D:\\CADT\\Internship 1\\OCR\\TestingOCR\\KhmerBCOCR",
+  "host": "DESKTOP-KPD5D9S",
+  "executable": "D:\\Download\\Anaconda\\anaconda3\\envs\\envOCR\\python.exe",
+  "codePathLocal": "src\\recognition_trocr\\pretrain_trocr_general_khmer.py",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "291269242880",
+      "used": "246596128768"
+    }
+  },
+  "memory": {
+    "total": "8301043712"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 12
+  }
+}

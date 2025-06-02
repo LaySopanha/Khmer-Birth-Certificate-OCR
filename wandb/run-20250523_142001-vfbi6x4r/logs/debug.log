@@ -1,0 +1,52 @@
+2025-05-23 14:20:01,189 INFO    MainThread:12888 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-23 14:20:01,189 INFO    MainThread:12888 [wandb_setup.py:_flush():70] Configure stats pid to 12888
+2025-05-23 14:20:01,190 INFO    MainThread:12888 [wandb_setup.py:_flush():70] Loading settings from C:\Users\User\.config\wandb\settings
+2025-05-23 14:20:01,190 INFO    MainThread:12888 [wandb_setup.py:_flush():70] Loading settings from D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\wandb\settings
+2025-05-23 14:20:01,190 INFO    MainThread:12888 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-23 14:20:01,190 INFO    MainThread:12888 [wandb_init.py:setup_run_log_directory():724] Logging user logs to D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\wandb\run-20250523_142001-vfbi6x4r\logs\debug.log
+2025-05-23 14:20:01,191 INFO    MainThread:12888 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to D:\CADT\Internship 1\OCR\TestingOCR\KhmerBCOCR\wandb\run-20250523_142001-vfbi6x4r\logs\debug-internal.log
+2025-05-23 14:20:01,191 INFO    MainThread:12888 [wandb_init.py:init():852] calling init triggers
+2025-05-23 14:20:01,192 INFO    MainThread:12888 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'batch_size': 2, 'learning_rate': 5e-05, '_wandb': {}}
+2025-05-23 14:20:01,192 INFO    MainThread:12888 [wandb_init.py:init():893] starting backend
+2025-05-23 14:20:01,192 INFO    MainThread:12888 [wandb_init.py:init():897] sending inform_init request
+2025-05-23 14:20:01,219 INFO    MainThread:12888 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-23 14:20:01,220 INFO    MainThread:12888 [wandb_init.py:init():907] backend started and connected
+2025-05-23 14:20:01,222 INFO    MainThread:12888 [wandb_init.py:init():1005] updated telemetry
+2025-05-23 14:20:01,226 INFO    MainThread:12888 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-23 14:20:02,078 INFO    MainThread:12888 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-23 14:20:02,519 INFO    MainThread:12888 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-23 14:20:02,519 INFO    MainThread:12888 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-23 14:20:02,519 INFO    MainThread:12888 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-23 14:20:02,519 INFO    MainThread:12888 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-23 14:20:02,524 INFO    MainThread:12888 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-23 14:32:50,475 WARNING MsgRouterThr:12888 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 208, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\interface\router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 235, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 212, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\interface\router.py", line 56, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\Anaconda\anaconda3\envs\envOCR\Lib\site-packages\wandb\sdk\interface\router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-05-23 14:32:51,995 INFO    MsgRouterThr:12888 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

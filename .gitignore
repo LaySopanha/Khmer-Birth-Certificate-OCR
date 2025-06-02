@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data - uncomment if you don't want to track large data files in Git
+# 01_data/00_raw/
+# 01_data/01_annotated/
+# 01_data/02_preprocessed/
+# 01_data/03_synthetic_data/
+
+# Models - usually too large for Git
+models/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+data/*
+!data/.gitkeep
+
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
