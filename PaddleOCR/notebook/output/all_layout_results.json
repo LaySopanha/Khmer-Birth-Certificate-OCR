@@ -1,0 +1,602 @@
+[
+    {
+        "type": "text",
+        "coords": [
+            52,
+            52,
+            217,
+            119
+        ],
+        "text": "យក\nច្រ ស្ក 8 :- យ\nឃុំ សន្កាត់ . ខ2+,2",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "figure_title",
+        "coords": [
+            255,
+            122,
+            438,
+            155
+        ],
+        "text": "ៗឬត្របញ្ជាក់ក៏ណើត",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            54,
+            245,
+            171,
+            318
+        ],
+        "text": "ជាអក្សរឡាតាំង",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            51,
+            648,
+            274,
+            733
+        ],
+        "text": "ទីកន្លែងកំណើត ន\nភូមិ ឃុំ សង្កាត់ ស្រុក ខណ្ខ ខេត្ត ក្រុង ប្រទេស!",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            385,
+            645,
+            461
+        ],
+        "text": "ខ្សភ្សា្រាតាខ០២គញូ\" «- -----",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            648,
+            460,
+            732
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            52,
+            389,
+            274,
+            462
+        ],
+        "text": "ទីកន្លែងកំណើត.\nភូមិ ឃុំសង្កាត់ ស្រុក ខណ្ខ ខេត្ត [ , ‹: ពួ\"ទេស",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            459,
+            648,
+            647,
+            732
+        ],
+        "text": "ស",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            272,
+            276,
+            642,
+            318
+        ],
+        "text": "ាររកមាោមាយ",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            312,
+            643,
+            355
+        ],
+        "text": "ប្រក",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            272,
+            168,
+            572,
+            208
+        ],
+        "text": "រ ហម",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            272,
+            204,
+            572,
+            244
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            52,
+            461,
+            274,
+            499
+        ],
+        "text": "ក",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            51,
+            609,
+            274,
+            650
+        ],
+        "text": "ថ្ងៃខែ ឆ្នាំកំណើត ព",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            272,
+            239,
+            641,
+            281
+        ],
+        "text": "",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            51,
+            571,
+            274,
+            612
+        ],
+        "text": "យ",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            52,
+            534,
+            274,
+            573
+        ],
+        "text": "ជាអក្សរឡាតាំង",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            52,
+            497,
+            274,
+            536
+        ],
+        "text": "ខាមត្រកូល និង ខាមខ្លួន/ ម",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            349,
+            644,
+            390
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            55,
+            172,
+            272,
+            210
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            53,
+            318,
+            273,
+            355
+        ],
+        "text": "សញ្ជាតិ មម ន",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            456,
+            496,
+            646,
+            533
+        ],
+        "text": "ស កន",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            274,
+            571,
+            458,
+            610
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            457,
+            533,
+            646,
+            572
+        ],
+        "text": "",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            54,
+            208,
+            272,
+            246
+        ],
+        "text": "| ឧាមខ្លួនអ្នកកើត = = =",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            274,
+            497,
+            457,
+            534
+        ],
+        "text": "គង -រំរ",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            571,
+            166,
+            640,
+            240
+        ],
+        "text": "យ",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            609,
+            459,
+            649
+        ],
+        "text": "ក នរ៦១0រឆ្នាំមិន",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            171,
+            281,
+            273,
+            318
+        ],
+        "text": "ាមខ្លួនអ្នកកើត",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            171,
+            244,
+            272,
+            281
+        ],
+        "text": "| នាមត្រកូល",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            274,
+            533,
+            457,
+            571
+        ],
+        "text": "ម 77",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            53,
+            354,
+            273,
+            390
+        ],
+        "text": "ថ្ងៃ ខែ ឆ្នាំកំណើត (",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            456,
+            459,
+            646,
+            497
+        ],
+        "text": "ន ២",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            273,
+            460,
+            456,
+            498
+        ],
+        "text": "ក យយ» យ\n| ក",
+        "text_type": "printed"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            458,
+            571,
+            646,
+            610
+        ],
+        "text": "ទុ",
+        "text_type": "handwritten"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            51,
+            166,
+            647,
+            738
+        ],
+        "cell_coords": [
+            458,
+            609,
+            646,
+            649
+        ],
+        "text": ")ថ្លៃទី៦%១កយ្ចុគ្ធ៦#ឱំ",
+        "text_type": "handwritten"
+    }
+]

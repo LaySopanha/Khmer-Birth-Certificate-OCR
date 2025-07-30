@@ -1,0 +1,638 @@
+[
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            66,
+            583,
+            324,
+            663
+        ],
+        "text": "ទីកន្លែងកំណើត\nភូមិ ឃុំ សង្កាត់ ស្រុក ខណ្ខ ខេត្ត ក្រុង ប្រទេស"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            67,
+            879,
+            324,
+            970
+        ],
+        "text": "ទីកន្លែងកំណើត\nភូមិ ឃុំ សង្កាត់ ស្រុក ខណ្ខ ខេត្ត ក្រុង ប្រទេស"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            65,
+            408,
+            181,
+            496
+        ],
+        "text": "ជាអក្សរឡាតាំង"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            583,
+            763,
+            663
+        ],
+        "text": "ក ប្ក ង្កុត ក្នុងស ខណ្ឌ ាអ( |"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            881,
+            762,
+            975
+        ],
+        "text": ""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            879,
+            542,
+            972
+        ],
+        "text": "បញ្ជារ\n?==»សកន្ឍុំ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            322,
+            316,
+            684,
+            363
+        ],
+        "text": "ក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            67,
+            792,
+            325,
+            836
+        ],
+        "text": ""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            66,
+            705,
+            325,
+            749
+        ],
+        "text": "នាមត្រកូល និង នាមខ្លួន"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            495,
+            764,
+            541
+        ],
+        "text": "អរ |"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            323,
+            451,
+            764,
+            497
+        ],
+        "text": "យី"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            67,
+            969,
+            324,
+            1022
+        ],
+        "text": "ទីលំនៅពេលទារកកើត"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            67,
+            749,
+            325,
+            792
+        ],
+        "text": "| ជាអក្សរឡាតាំ២"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            323,
+            406,
+            764,
+            452
+        ],
+        "text": "ចចក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            322,
+            362,
+            684,
+            407
+        ],
+        "text": "សុឡា យ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            66,
+            662,
+            325,
+            705
+        ],
+        "text": "ឌ័ពុក ម្ដាយទារក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            67,
+            835,
+            324,
+            879
+        ],
+        "text": "ថ្ងៃ ខែ ឆ្នាំកំណើត"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            65,
+            363,
+            322,
+            408
+        ],
+        "text": "_នាមខ្លួនទារក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            65,
+            317,
+            322,
+            364
+        ],
+        "text": "នាមត្រកូល"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            539,
+            763,
+            584
+        ],
+        "text": "(កិត ទី ៤\" ស់កក្កុនរខ្នាយុ0០៥ា"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            65,
+            496,
+            324,
+            540
+        ],
+        "text": "សញ្ជាតិ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            66,
+            540,
+            324,
+            584
+        ],
+        "text": "ថ្ងៃ ខែ ឆ្នាំកំណើត"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            706,
+            541,
+            749
+        ],
+        "text": ""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            793,
+            761,
+            838
+        ],
+        "text": "ថីរ៊ុរ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            683,
+            315,
+            764,
+            406
+        ],
+        "text": "ភេទ\nសុស"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            180,
+            408,
+            323,
+            452
+        ],
+        "text": "នាមត្រកូល"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            180,
+            452,
+            323,
+            497
+        ],
+        "text": "នាមខ្លួនទារក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            750,
+            762,
+            795
+        ],
+        "text": "ន្យ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            706,
+            762,
+            751
+        ],
+        "text": ""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            749,
+            541,
+            793
+        ],
+        "text": "ស\""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            792,
+            542,
+            837
+        ],
+        "text": "យ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            663,
+            762,
+            706
+        ],
+        "text": ""
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            541,
+            837,
+            761,
+            882
+        ],
+        "text": "| «១ លតាខ6ទ)"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            663,
+            541,
+            706
+        ],
+        "text": "ឌឱពុក"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            835,
+            542,
+            881
+        ],
+        "text": "| 8 នន2,១៩ារយ"
+    },
+    {
+        "type": "table_cell",
+        "parent_table_coords": [
+            65,
+            315,
+            765,
+            1025
+        ],
+        "cell_coords": [
+            324,
+            970,
+            762,
+            1024
+        ],
+        "text": "រុក សង្កុជ ទ្ត"
+    },
+    {
+        "type": "text",
+        "coords": [
+            57,
+            188,
+            233,
+            278
+        ],
+        "text": "ព រុង ណខ\nម៉ុ” សង្កាត់ ផុស"
+    },
+    {
+        "type": "text",
+        "coords": [
+            527,
+            186,
+            779,
+            263
+        ],
+        "text": "លេខ. . .. 0.\nសៀវរភករណីតលេខ2យី '២?៣៤"
+    },
+    {
+        "type": "text",
+        "coords": [
+            542,
+            94,
+            739,
+            172
+        ],
+        "text": "បព្រះរាជាណាបក្រកម្ពុជា\nជាតំ សាសនា ព្រះមហាក្សត្រ\nក្ត ក៏ វី នវ"
+    },
+    {
+        "type": "figure_title",
+        "coords": [
+            338,
+            267,
+            487,
+            307
+        ],
+        "text": "ស៌បូត្រកំណើត"
+    },
+    {
+        "type": "seal",
+        "coords": [
+            462,
+            1074,
+            695,
+            1217
+        ],
+        "text": "រ ឌា\n៤ សងន្ព'ណ្ញ្ម\n“ញី ទ្ណ\nប\n572 #សយ«កុសល"
+    },
+    {
+        "type": "text",
+        "coords": [
+            402,
+            1041,
+            764,
+            1078
+        ],
+        "text": "ធ្វើនៅ. ណង. ថ្ងៃទី៥ ២ ខែ និ២2.ឆ្នា៤០០"
+    }
+]

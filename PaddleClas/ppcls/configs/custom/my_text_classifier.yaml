@@ -1,0 +1,106 @@
+# Global settings
+Global:
+  device: "gpu"
+  use_visualdl: False
+  checkpoints: None
+  pretrained_model: "./pretrain/MobileNetV3_large_x1_0_pretrained"
+  # class_num is now in Arch
+  image_shape: [3, 224, 224]
+  epochs: 25
+  eval_during_train: True
+  eval_interval: 1
+  print_batch_step: 10
+  save_interval: 1
+  output_dir: "./output/MyTextClassifier"
+
+# Architecture - class_num is now defined here
+Arch:
+  name: "MobileNetV3_large_x1_0"
+  class_num: 2 # CRUCIAL: Set to 2 here
+
+# Loss Function
+Loss:
+  Train:
+    - CELoss: {weight: 1.0}
+  Eval:
+    - CELoss: {weight: 1.0}
+Metric:
+  Train:
+    - TopkAcc:
+        topk: [1]
+  Eval:
+    - TopkAcc:
+        topk: [1]
+# Optimizer
+Optimizer:
+  name: Adam
+  lr:
+    name: Piecewise
+    decay_epochs: [15]
+    values: [0.001, 0.0001]
+
+# Data Loading
+DataLoader:
+  Train:
+    dataset:
+      name: ImageNetDataset
+      image_root: "/teamspace/studios/this_studio/PaddleOCR/data/classifier_data/train/"
+      cls_label_path: "/teamspace/studios/this_studio/PaddleOCR/data/classifier_data/train_list.txt"
+      transform_ops:
+      - DecodeImage: {to_rgb: True, channel_first: False}
+      - RandCropImage: {size: 224}
+      - RandFlipImage: {}
+      - AutoAugment: {} 
+      - NormalizeImage:
+          scale: 1./255.
+          mean: [0.485, 0.456, 0.406]
+          std: [0.229, 0.224, 0.225]
+          order: '' 
+        
+    sampler:
+      name: DistributedBatchSampler
+      batch_size: 32
+      drop_last: false
+      shuffle: true
+    loader:
+      num_workers: 4
+      use_shared_memory: True
+
+  Eval:
+    dataset:
+      name: ImageNetDataset
+      image_root: "/teamspace/studios/this_studio/PaddleOCR/data/classifier_data/val/"
+      cls_label_path: "/teamspace/studios/this_studio/PaddleOCR/data/classifier_data/val_list.txt"
+      transform_ops:
+      - DecodeImage: {to_rgb: True, channel_first: False}
+      - ResizeImage: {resize_short: 256}
+      - CropImage: {size: 224}
+      - NormalizeImage:
+          scale: 1./255.
+          mean: [0.485, 0.456, 0.406]
+          std: [0.229, 0.224, 0.225]
+          order: '' 
+        
+    sampler:
+      name: DistributedBatchSampler
+      batch_size: 32
+      drop_last: false
+      shuffle: false
+    loader:
+      num_workers: 4
+      use_shared_memory: True
+Infer:
+  batch_size: 10
+  transforms:
+    - DecodeImage: {to_rgb: True, channel_first: False}
+    - ResizeImage: {resize_short: 256}
+    - CropImage: {size: 224}
+    - ToCHWImage: {}
+    - NormalizeImage: {scale: 1./255., mean: [0.485, 0.456, 0.406], std: [0.229, 0.224, 0.225]}
+  
+  # Post-processing steps
+  PostProcess:
+    name: Topk
+    topk: 1 # We only want the single best prediction
+    # IMPORTANT: Point this to your label list file
+    class_id_map_file: "/teamspace/studios/this_studio/PaddleOCR/data/classifier_data/class_id_map.txt"
